@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const bcrypt = require('bcrypt')
-const { type } = require('@hapi/joi/lib/extend')
+
 
 const UserSchema = new Schema({
   email: {
